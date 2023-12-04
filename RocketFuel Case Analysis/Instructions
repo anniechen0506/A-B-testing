@@ -1,0 +1,18 @@
+1. Check for balance: In a table, compare the shares of individuals by treatment status, and the means andstandard deviations of pre-experiment variables.
+
+2. Plot outcome: Plot the means and confidence intervals of the main outcome “converted,” treatment status. In your markdown, file, interpret the result (mean and confidence intervals, noting width).
+
+3. Find ATE: Estimate of the Average Treatment Effect (ATE) of the ads for treatment relative to control, the associated standard error, and the 95% confidence interval on the Average Treatment Effects. You
+can do this by hand or with regression (but be careful about standard errors).
+
+4. Subgroup analysis: Create a summary table showing the sample size, the mean and the standard deviation of variables in the data set for both treatment and control group over the 10 deciles of total impressions. Organize your table so that it’s easy to see treatment effects for each decile. Comment
+about your findings in the file.
+
+5. Subgroup plots – means + CI: Create a graph that shows the mean and 95% CI on “converted” separately for treatment and control plotted over the 10 deciles of total impressions. Briefly interpret the plot in your market down file. (Bonus: make a graph of the treatment effects and 95% CIs by decile.)
+
+6. Value of advertising: Based on the overall treatment effect (question 3), what do you estimate is the increased profit per individual from running these ads? You should use information from the case to determine costs and benefits. Explain how you calculate costs and benefits.
+
+7. Targeting: Now suppose you could target ads, serving only based on deciles of impression (so you can control which decile is included in the campaign, but the total impression and costs will differ by decile). Based on your heterogeneous treatment effect estimates, and with a calculation analogous to the one
+for (6), which decile would you want to target?
+
+8. Value of targeting: Discuss what your results imply about the value of selectively targeting ads
