@@ -1,6 +1,22 @@
 # A-B-testing
 Repo for GB740: Experiments and Causal Methods for Business Insights(2023)
 
+### [* My project: ChatGPT v.s. Expert's Advice](https://github.com/anniechen0506/A-B-testing/tree/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice)
+- **Case Study Information**: [ChatGPT Project Overview.pdf](https://github.com/anniechen0506/A-B-testing/blob/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice/README.md)
+- **Data Set**: [chat_gpt_experiment_data.csv](https://github.com/anniechen0506/A-B-testing/blob/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice/chat_gpt_experiment_data.csv)
+- **My Experiment Analysis Document**: [AI v.s. Expert Advice_Annie Chen.pdf](https://github.com/anniechen0506/A-B-testing/blob/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice/AI%20vs%20Expert%20Advice_Annie%20Chen.pdf)
+- **Experiment Design**:
+   * **Control Group**: estimate crowd size without any aid -> ask confidence level.
+   * **Treatment Group 1 (ChatGPT)**: estimate crowd size -> provide with ChatGPT's method -> ask confidence level.
+   * **Treatment Group 2 (Expert)**: estimate crowd size -> provide with expert's method -> ask confidence level.
+- **Objective**: To understand how advice from an AI tool affects people’s confidence.
+- **Methodology**:
+   * Balance checking: verify that pre-experiment variables are evenly distributed across treatment and control group.
+   * Statistical Analysis: Calculation of Average Treatment Effects (ATE) and 95% Confidence Interval (CI) using R.
+   * Subgroup Analysis: Examine the treatment effects across different levels of familiarity on ChatGPT, categorized into 5 deciles, to identify any patterns or variations in people's confidence.
+
+
+
 ### [1. Clinic Sales Experiment Analysis](https://github.com/anniechen0506/A-B-testing/tree/main/Clinic%20Sales%20Analysis)
 - **Case Study Information**: [Clinic sales case description.pdf](https://github.com/anniechen0506/A-B-testing/blob/main/Clinic%20Sales%20Analysis/Clinic%20sales%20case%20description.pdf)
 - **Data Set**: [clinicsales.csv](https://github.com/anniechen0506/A-B-testing/blob/main/Clinic%20Sales%20Analysis/clinicsales.csv)
