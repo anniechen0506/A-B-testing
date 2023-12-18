@@ -1,3 +1,7 @@
+## ChatGPT vs. Expert's Advice
+
+**My Analysis: [AI v.s. Expert Advice_Annie Chen.pdf](https://github.com/anniechen0506/A-B-testing/blob/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice/AI%20vs%20Expert%20Advice_Annie%20Chen.pdf)**
+
 **Experiment background**: In the final project of the A/B testing experiment course, we conduct an experiment using Qualtrics and Prolific. 
 - The goal of the experiment was to understand how advice from an AI tool affects people’s confidence. This is important to understand because AI tools are increasingly common but they do not always give reliable answers, so it is possible people are overconfident with a tool in hand.
 
@@ -14,7 +18,7 @@ We recruited 1903 subjects to take the experiment using Proflific, paying them $
 
 The original power calculations assumed a standard deviation of 1.58, and so had a minimum detectable effect of 0.29 (with 90% power and n=625 per arm), or about 10% of an assumed mean of 3.
 
-The data are available in chat_gpt_experiment_data.csv. The data contain the following fields:
+The data are available in [chat_gpt_experiment_data.csv](https://github.com/anniechen0506/A-B-testing/blob/main/Project%3A%20ChatGPT%20vs.%20Expert%20Advice/chat_gpt_experiment_data.csv). The data contain the following fields:
 
 - Duration: time taken in seconds to answer survey
 - responseID: Qualtrics-assigned id
